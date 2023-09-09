@@ -16,5 +16,6 @@ In this project we use the SemEval-2018 Task 1: Affect in Tweet, which contains 
 Source: [\[3\]](https://aclanthology.org/S18-1001.pdf)
 
 ## Result
-Custom input text: "We had a great trip last, hopefully we can do it again soon".\n
+Custom input text: "We had a great trip last, hopefully we can do it again soon".
+
 Model output: ['Joy', 'Optimism']
