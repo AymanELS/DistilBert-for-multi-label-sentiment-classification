@@ -14,3 +14,7 @@ This is achieved with knowledge distillation, which is a compression technique w
 ## Dataset
 In this project we use the SemEval-2018 Task 1: Affect in Tweet, which contains a list of tweets in different language with the goal of predicting the sentiment of the writer of the tweet. We use the tweets in written in the English language. The list of possible sentiments include 'anger', 'anticipation', 'disgust', 'fear', 'joy', 'love', 'optimism', 'pessimism', 'sadness', 'surprise', and 'trust'.
 Source: [\[3\]](https://aclanthology.org/S18-1001.pdf)
+
+## Result
+Custom input text: "We had a great trip last, hopefully we can do it again soon"
+Model output: ['Joy', 'Optimism']
