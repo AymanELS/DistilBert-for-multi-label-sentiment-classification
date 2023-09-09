@@ -135,7 +135,7 @@ def test_performance(output):
   predicted_labels = [id2label[idx] for idx, label in enumerate(predictions) if label == 1.0]
   print(predicted_labels)
 
-text = "We had a great trip last, hopefully we can do it again soon"
+text = "We had a great trip last week, hopefully we can do it again soon"
 
 encoding = tokenizer(text, return_tensors="pt")
 encoding = {k: v.to(trainer.model.device) for k,v in encoding.items()}
